@@ -201,6 +201,7 @@ DEPENDENCIES
   jekyll (= 3.4.5)
   jekyll-feed (~> 0.6)
   jekyll-paginate
+  jekyll-sitemap
   tzinfo-data
 
 BUNDLED WITH

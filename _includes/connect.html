@@ -1,0 +1,34 @@
+
+<section id="connect" class="connect bg-primary">
+    <div class="container">
+        <h2>We <i class="fa fa-heart"></i> hearing from our fans!</h2>
+        <ul class="list-inline list-social">
+            {% for network in site.social %}
+            <li class="social-{{ network.title }}">
+                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+            </li>
+        {% endfor %}
+        </ul>
+        <!-- <ul class="list-inline list-social">
+            <li class="social-twitter">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="social-facebook">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="social-google-plus">
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+            </li>
+        </ul> -->
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <p>&copy; 2017. Built with <a target="_blank" rel="nofollow" href="https://jekyllrb.com/">Jekyll</a>. <a rel="nofollow" target="blank" href="https://startbootstrap.com/template-overviews/new-age/">Start Bootstrap New Age</a> theme adapted by <a target="_blank" rel="nofollow" href="https://it.linkedin.com/in/antoniotrento">Antonio Trento</a> & available on <a target="_blank" rel="nofollow" href="https://github.com/jekynewage/jekynewage.github.io">Github</a>. All Rights Reserved.</p>
+        <ul class="list-inline">
+            <li>
+                <a href="http://www.swiftwithjustin.co">Contact the Developer</a>
+            </li>
+        </ul>
+    </div>
+</footer>

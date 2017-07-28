@@ -11,7 +11,7 @@ url: "http://www.bblinksapp.com" # the base hostname & protocol for your site
 # data-ad-client: ca-pub-9204963049240271
 # google_ad_client: ca-pub-9204963049240271
 
-# google_analytics: "UA-86331249-1"
+google_analytics: "UA-103570779-1"
 # addthis_id: ra-5644da281510c62f
 # disqus_account: jeky-new-age
 
@@ -35,3 +35,6 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 plugins_dir: [jekyll-paginate, jekyll-feed]
 # Build settings
+
+gems:
+  - jekyll-sitemap

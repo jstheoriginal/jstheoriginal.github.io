@@ -36,5 +36,5 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 plugins_dir: [jekyll-paginate, jekyll-feed]
 # Build settings
 
-gems:
+plugins:
   - jekyll-sitemap
